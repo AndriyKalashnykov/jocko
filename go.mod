@@ -1,6 +1,6 @@
 module github.com/travisjeffery/jocko
 
-go 1.12
+go 1.21
 
 require (
 	github.com/Shopify/sarama v1.13.0
@@ -17,7 +17,7 @@ require (
 	github.com/eapache/go-xerial-snappy v0.0.0-20160609142408-bb955e01b934
 	github.com/eapache/queue v1.0.2
 	github.com/go-kit/kit v0.6.0
-	github.com/golang/protobuf v1.2.0
+	github.com/golang/protobuf v1.5.3
 	github.com/golang/snappy v0.0.0-20170215233205-553a64147049
 	github.com/hashicorp/consul v1.0.3
 	github.com/hashicorp/errwrap v1.0.0
@@ -38,7 +38,7 @@ require (
 	github.com/opentracing/opentracing-go v1.0.2
 	github.com/pierrec/lz4 v1.0.1
 	github.com/pierrec/xxHash v0.1.1
-	github.com/pkg/errors v0.8.1
+	github.com/pkg/errors v0.9.1
 	github.com/pmezard/go-difflib v1.0.0
 	github.com/prometheus/client_golang v0.9.2
 	github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910
@@ -57,6 +57,23 @@ require (
 	github.com/uber/jaeger-lib v1.3.1
 	github.com/ugorji/go v0.0.0-20180112141927-9831f2c3ac10
 	golang.org/x/net v0.0.0-20181201002055-351d144fa1fc
-	golang.org/x/sys v0.0.0-20200202164722-d101bd2416d5
+	golang.org/x/sys v0.15.0
 	upspin.io v0.0.0-20180517055408-63f1073c7a3a
+)
+
+require (
+	github.com/Masterminds/semver v1.5.0 // indirect
+	github.com/Masterminds/vcs v1.13.3 // indirect
+	github.com/armon/go-radix v1.0.0 // indirect
+	github.com/golang/dep v0.5.4 // indirect
+	github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c // indirect
+	github.com/hashicorp/go-hclog v0.9.1 // indirect
+	github.com/jmank88/nuts v0.4.0 // indirect
+	github.com/nightlyone/lockfile v1.0.0 // indirect
+	github.com/pelletier/go-toml v1.9.5 // indirect
+	github.com/sdboyer/constext v0.0.0-20170321163424-836a14457353 // indirect
+	golang.org/x/crypto v0.0.0-20181029021203-45a5f77698d3 // indirect
+	golang.org/x/sync v0.5.0 // indirect
+	google.golang.org/protobuf v1.31.0 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
